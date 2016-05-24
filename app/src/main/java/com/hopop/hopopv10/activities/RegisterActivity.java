@@ -67,7 +67,7 @@ public class RegisterActivity extends AppCompatActivity {
                     @Override
                     public void onResponse(Call<Registerresponse> call, Response<Registerresponse> response) {
                         Toast.makeText(RegisterActivity.this, "Registration Successful", Toast.LENGTH_LONG).show();
-                        Intent register = new Intent(RegisterActivity.this, SearchActivity.class);
+                        Intent register = new Intent(RegisterActivity.this, LoginActivity.class);
                         startActivity(register);
                         Log.e(getClass().getSimpleName(), "successful");
 

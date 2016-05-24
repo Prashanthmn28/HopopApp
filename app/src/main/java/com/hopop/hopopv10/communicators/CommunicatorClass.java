@@ -22,7 +22,7 @@ public class CommunicatorClass {
                     .addNetworkInterceptor(new StethoInterceptor()).build();
 
             Retrofit retrofit = new Retrofit.Builder()
-                    .baseUrl("http://172.31.4.252:80/hari/hopop/")
+                    .baseUrl("http://redbeak.azurewebsites.net/php/")
                     .client(client)
                     .addConverterFactory(GsonConverterFactory.create())
                     .build();

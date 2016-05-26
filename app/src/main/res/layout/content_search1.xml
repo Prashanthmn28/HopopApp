@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#ffffff"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.hopop.hopopv10.activities.SearchActivity1"
+    tools:context="com.hopop.hopop.activities.SearchActivity1"
     tools:showIn="@layout/app_bar_search1">
 
     <ListView
